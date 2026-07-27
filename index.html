@@ -367,7 +367,6 @@ Baltimore, MD &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; Minneapolis, 
 <div style="flex-shrink:0;height:112mm;border:0.3mm solid #dfe4ea;position:relative;">
 <div id="stoc-supply-map" style="width:100%;height:100%;background:#e8edf2;"></div>
 </div>
-<div class="keyread" style="flex-shrink:0;margin-top:0.5mm;"><b>Key Read: </b><span>Independent supply is nationally distributed, but the largest target pools concentrate in major regional markets.</span></div>
 <div style="flex-shrink:0;">
 <div class="minihdr">Top Visible Independent Target Supply Markets</div>
 <table style="width:100%;border-collapse:collapse;table-layout:fixed;">
@@ -750,7 +749,7 @@ Baltimore, MD &nbsp;&middot;&nbsp; Dallas, TX &nbsp;&middot;&nbsp; Minneapolis, 
       d.innerHTML+="<div style=\"font-family:Plus Jakarta Sans,sans-serif;font-size:7.5px;color:#3F4752;font-weight:600;margin-top:3px;max-width:170px;line-height:1.28;\">Statewide totals; a state spans several metros. Top states: CA 1,968 &middot; FL 1,752 &middot; TX 1,403.</div>";
       d.innerHTML+="<div style=\"margin-top:6px;padding-top:5px;border-top:0.25mm solid rgba(13,27,47,0.14);\"></div>";
       d.innerHTML+="<div style=\"font-family:Plus Jakarta Sans,sans-serif;font-size:8px;font-weight:800;color:#0D1B2F;margin-bottom:4px;text-transform:uppercase;letter-spacing:.42px;\">Independent Targets by Metro (CBSA)</div>";
-      d.innerHTML+="<div style=\"display:flex;align-items:flex-end;gap:9px;margin-bottom:3px;\">"+[["~200",14],["~500",20],["~900",25]].map(function(s){ return "<div style=\"display:flex;flex-direction:column;align-items:center;gap:2px;\"><div style=\"width:"+s[1]+"px;height:"+s[1]+"px;border-radius:50%;background:#3DA35E;border:1.5px solid #FFFFFF;box-shadow:0 0 0 0.6px #2E8049;flex-shrink:0;\"></div><span style=\"font-family:Plus Jakarta Sans,sans-serif;font-size:7.5px;color:#3F4752;font-weight:600;\">"+s[0]+"</span></div>"; }).join("")+"</div>";
+      d.innerHTML+="<div style=\"display:flex;align-items:flex-end;gap:7px;margin-bottom:3px;\">"+[["~200",9],["~500",13],["~900",17]].map(function(s){ return "<div style=\"display:flex;flex-direction:column;align-items:center;gap:1px;\"><div style=\"width:"+s[1]+"px;height:"+s[1]+"px;border-radius:50%;background:#3DA35E;border:1px solid #FFFFFF;box-shadow:0 0 0 0.5px #2E8049;flex-shrink:0;\"></div><span style=\"font-family:Plus Jakarta Sans,sans-serif;font-size:7px;color:#3F4752;font-weight:600;\">"+s[0]+"</span></div>"; }).join("")+"</div>";
       d.innerHTML+="<div style=\"font-family:Plus Jakarta Sans,sans-serif;font-size:7.5px;color:#3F4752;font-weight:600;line-height:1.25;max-width:158px;\">Bubble size = independent targets per metro; these are the ranked markets in the table below.</div>";
       return d; };
     leg.addTo(map);
